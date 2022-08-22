@@ -2,8 +2,8 @@ from kubernetes import client, config
 import json
 import sys
 
-namespace="my-namespace"
-label="app=my-app"
+namespace="sre"
+label="nginx"
 
 def main():
   config.load_kube_config()
