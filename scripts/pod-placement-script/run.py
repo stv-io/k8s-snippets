@@ -2,8 +2,8 @@ from kubernetes import client, config
 import json
 import sys
 
-namespace="mls"
-label="app=mls-media"
+namespace="my-namespace"
+label="app=my-app"
 
 def main():
   config.load_kube_config()
